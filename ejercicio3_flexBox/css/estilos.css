@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ESCRIBE TU CÓDIGO AQUI */
+.padre{background-color: rgba(255, 171, 140, 0.568);display:flex;justify-content: space-around;}
+.hijo{flex-basis:calc(33.33% - 40px);}

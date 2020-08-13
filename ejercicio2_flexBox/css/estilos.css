@@ -1,0 +1,10 @@
+.padre {
+    height: 100vh;
+    background-color: sandybrown;
+
+    
+}
+/* ESCRIBE TU CODIGO AQUI*/
+.hijo{width:30%;margin:auto;display: flex;flex-direction: column;height:40vh;;
+    justify-items: center;justify-content:space-around;}
+    img{width:100%;height:auto;}

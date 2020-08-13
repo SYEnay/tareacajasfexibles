@@ -1,0 +1,10 @@
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{text-decoration:none;color:#fff;background-color:#000;flex-basis:30%;text-align:center;font-size:25px;}
+/* ESCRIBE TU CODIGO AQUI*/
+.padre{background-color:rgb(243, 186, 146);display:flex;justify-content:space-between;justify-items:center;flex-direction: column;}
+.hijos{flex-basis:100%;height:auto;}
+.hijo1{margin: auto;}
+.hijo2{display:flex;justify-content:space-around;justify-items:center;}

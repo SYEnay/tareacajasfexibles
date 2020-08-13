@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+a{text-decoration:none;color:#fff;background-color:rgb(116, 35, 11);
+    flex-basis:30%;text-align:center;font-size:25px;}
+a:hover{opacity:0.8;transition:1s;}
+/* ESCRIBE TU CÓDIGO AQUI */
+/*utilidades*/
+.padre{background-color:rgb(243, 186, 146);display:flex;justify-content:space-between;justify-items:center;flex-direction: column;}
+.hijos{flex-basis:100%;height:auto;}
+.hijo1{margin: auto;}
+.hijo2{display:flex;justify-content:space-around;justify-items:center;flex-direction:row;}
+.padre2{background-color:rgb(243, 186, 146);display:flex;
+    justify-content:space-around;justify-items:center;
+    flex-direction:row;text-align: center;}
+.info-1{flex-basis:60%;margin:auto;}
+.info-2{flex-basis:30%;margin:auto;}
+.hijo{flex-basis:calc(33.33% - 40px);}
+.botones{background-color:rgb(116, 35, 11);}
+.boton{flex-basis:25%;display: flex;flex-direction: column;max-height:50vh;;
+    justify-items:center;justify-content:space-around;}
+@media(max-width:1300px){
+    .padre2{flex-direction:column;}
+    .hijo2{flex-direction: column;}
+    .botones{max-height:30vh;flex-direction:row;}
+        }
